@@ -14,6 +14,7 @@
 		DE4E5C9D1C76B72500DE27E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4E5C9C1C76B72500DE27E5 /* Assets.xcassets */; };
 		DE4E5CA01C76B72500DE27E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4E5C9E1C76B72500DE27E5 /* LaunchScreen.storyboard */; };
 		DE4E5CA91C76B77400DE27E5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4E5CA81C76B77400DE27E5 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DE4E5CC81C76F68100DE27E5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4E5CC71C76F68100DE27E5 /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		DE4E5CA11C76B72500DE27E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE4E5CA71C76B77400DE27E5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		DE4E5CA81C76B77400DE27E5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DE4E5CC61C76F68100DE27E5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DE4E5CC71C76F68100DE27E5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				DE4E5C8D1C76B72500DE27E5 /* Supporting Files */,
 				DE4E5CA71C76B77400DE27E5 /* MainViewController.h */,
 				DE4E5CA81C76B77400DE27E5 /* MainViewController.m */,
+				DE4E5CC61C76F68100DE27E5 /* DetailViewController.h */,
+				DE4E5CC71C76F68100DE27E5 /* DetailViewController.m */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE4E5CC81C76F68100DE27E5 /* DetailViewController.m in Sources */,
 				DE4E5C921C76B72500DE27E5 /* AppDelegate.m in Sources */,
 				DE4E5C8F1C76B72500DE27E5 /* main.m in Sources */,
 				DE4E5C9B1C76B72500DE27E5 /* TodoList.xcdatamodeld in Sources */,
@@ -265,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TodoList/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -277,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TodoList/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -304,6 +312,7 @@
 				DE4E5CA61C76B72500DE27E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
